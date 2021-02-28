@@ -10,9 +10,7 @@ const embeddedUrl = `${ASSET_URL}?embed=${CHOSEN_THEME}`
 class App extends React.Component {
 
   componentDidMount() {
-    setTimeout(function(){
-      //iframeResizer({ log: false }, '#opensea-iframe')
-    }, 6000)
+    iframeResizer({ log: false }, '#opensea-iframe')
   }
 
   render() {
