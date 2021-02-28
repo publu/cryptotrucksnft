@@ -18,17 +18,11 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            
-          </p>
           <i className="material-icons right">menu</i>
         </header>
         <main className="App-main">
           <div className="App-hero">
             <div className="App-hero-image"></div>
-            <p>
-              Crypto Trucks NFTs
-            </p>
             <small>150 CryptoTrucks, 150 unique designs. T-Rex Rainbow Each is 4900*4900 pixels, so you can hang them on your wall!</small>
           </div>
           <iframe id="opensea-iframe" title="Embedded OpenSea Marketplace" src={embeddedUrl} width='100%' height='700px' frameBorder='0' allowFullScreen></iframe>
