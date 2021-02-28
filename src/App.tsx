@@ -2,7 +2,7 @@ import React from 'react';
 import { ASSET_URL, CHOSEN_THEME } from './constants'
 import logo from './static/images/logo.png';
 import './static/styles/App.css';
-import { iframeResizer } from 'iframe-resizer'
+//import { iframeResizer } from 'iframe-resizer'
 import './static/styles/App.css';
 
 const embeddedUrl = `${ASSET_URL}?embed=${CHOSEN_THEME}`
@@ -10,7 +10,7 @@ const embeddedUrl = `${ASSET_URL}?embed=${CHOSEN_THEME}`
 class App extends React.Component {
 
   componentDidMount() {
-    iframeResizer({ log: false }, '#opensea-iframe')
+//    iframeResizer({ log: false }, '#opensea-iframe')
   }
 
   render() {
