@@ -74,6 +74,11 @@ i.material-icons.right {
   left: 10vw;
 }
 
+a {
+    color: white;
+    font-size: 1rem;
+}
+
 .App-hero-image {
   position: absolute;
   top: 0;

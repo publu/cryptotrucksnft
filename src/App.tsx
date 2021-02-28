@@ -18,6 +18,11 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
+          <a
+              href="https://opensea.io/activity/cryptotrucks"
+              target="_blank">
+              Activity
+          </a>
           <i className="material-icons right">menu</i>
         </header>
         <main className="App-main">
