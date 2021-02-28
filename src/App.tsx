@@ -11,7 +11,9 @@ const embeddedUrl = `${ASSET_URL}?embed=${CHOSEN_THEME}`
 class App extends React.Component {
 
   componentDidMount() {
-    iframeResizer({ log: false }, '#opensea-iframe')
+    setTimeout(function(){
+      //iframeResizer({ log: false }, '#opensea-iframe')
+    }, 6000)
   }
 
   render() {
@@ -28,16 +30,12 @@ class App extends React.Component {
           <div className="App-hero">
             <div className="App-hero-image"></div>
             <p>
-              My Marketplace
+              Crypto Trucks NFTs
             </p>
-            <small>Digital collectibles from my company</small>
+            <small>150 CryptoTrucks, 150 unique designs. T-Rex Rainbow Each is 4900*4900 pixels, so you can hang them on your wall!</small>
           </div>
-          <iframe id="opensea-iframe" title="Embedded OpenSea Marketplace" src={embeddedUrl} width='100%' height='100%' frameBorder='0' allowFullScreen></iframe>
+          <iframe id="opensea-iframe" title="Embedded OpenSea Marketplace" src={embeddedUrl} width='100%' height='700px' frameBorder='0' allowFullScreen></iframe>
         </main>
-        <footer className="App-footer">
-          {/* Placeholder image for footer */}
-          <img style={{width: '100%'}} src={footer} className="footer" alt="footer" />
-        </footer>
       </div>
     );
   }
